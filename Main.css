@@ -1,0 +1,128 @@
+.container {
+    width: 100%;
+    height: 550px;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 25em;
+    overflow: hidden;
+   
+    
+  }
+  
+  .container h1 {
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    font-size: 40px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 600px;
+    color: black;
+    margin-left: 90px;
+    
+  }
+  .container img {
+    padding: 0%;
+    margin: 0%;
+    width: 400px;
+    height: 500px;
+    background-color: wheat;
+    position: relative;
+    right: 30px;
+    display: block;
+    transition: transform 0.3s ease;
+    /* border: 2px solid #06ffd5; */
+    border-radius: 34% 66% 26% 74% / 48% 21% 79% 52% ;
+    box-shadow: 0px 5px 10px rgb(44, 44, 44);
+  }
+  .name{
+    color: #3261e4;
+    font-size: 55px;
+    font-family: "Rubik",sans-serif;
+    font-weight: 600;
+  }
+  .sp{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 100;
+    margin-left: 150px;
+  }
+  
+  @keyframes imageAnimation {
+    0% {
+      border-radius: 25% 75% 22% 78% / 54% 37% 63% 46% ;
+    }
+    10% {
+      border-radius: 41% 59% 22% 78% / 54% 55% 45% 46%  ;
+    }
+    50% {
+      border-radius: 64% 36% 65% 35% / 73% 56% 44% 27%  ;
+    }
+    100% {
+      border-radius:80% 20% 71% 29% / 0% 56% 44% 100%  ;
+    }
+  }
+  
+  .container img {
+    animation: imageAnimation 1s infinite; /* Apply the animation */
+  }
+  
+  .container:hover img {
+    animation: none; /* Disable animation on hover */
+  }
+  h7{
+    font-family:sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(45, 71, 218);
+    margin-right: -400px;
+  }
+  @keyframes spannameAnimation {
+    0% {
+      transform: translateX(5);
+    }
+    50% {
+    color: wheat;
+    font-weight: 700;
+    }
+  }
+  
+  .name{
+    animation: spannameAnimation 1s infinite; /* Apply the animation */
+  }
+  
+  .container:hover span {
+    animation: none; /* Disable animation on hover */
+  }
+ .button{
+  margin: 0%;
+  padding: 0%;
+   background-color: #fefce8;
+   color: #000000;
+   font-family: sans-serif;
+   font-weight: 400;
+   border: none;
+   border-radius: 5px;
+   padding: 10px 20px ;
+   cursor: pointer;
+   position:absolute;
+   right: 700px;
+   bottom: 50px;
+   transition: all 0.3s ease;
+   outline: none;
+   border:1px solid #494949;
+   width: 100px;
+   text-decoration: none;
+   text-align: center;
+   font-size: 20px;
+ }
+ .button:hover{
+   background-color: #505050;
+   color: #ffffff;
+   border-radius: 10px;
+   box-shadow: 0px 5px 10px rgb(44, 44, 44);
+
+ }
+ 

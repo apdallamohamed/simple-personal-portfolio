@@ -1,0 +1,92 @@
+
+.skill {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 0%;
+   
+    
+  }
+  .skill h1 {
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    font-size: 50px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 200;
+    color: black;
+    
+  }
+.btn{
+    margin-right: 180px;
+    padding: 20px;
+    position: flex;
+
+     text-decoration: none;
+     text-align: center;
+     
+   }
+   .btn button{
+    margin: 20px;
+    font-size: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: #3b3b3b;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    margin-top: 60px;
+
+    gap: 10px;
+
+    padding: 20px;
+
+
+
+   }
+   .btn button:hover{
+    background-color: #a8a8a8;
+    color: #3b3b3b;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgb(88, 88, 88);
+ 
+  }
+  
+   
+  .btn1 button{
+    margin: 20px;
+    font-size: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    margin-top: 60px;
+    position: relative;
+   left: 19%;
+
+    gap: 30px;
+
+    padding: 20px;
+
+
+
+
+   }
+   .btn1 button:hover{
+    background-color: #a8a8a8;
+    color: #3b3b3b;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgb(88, 88, 88);
+ 
+  }
+  
+   

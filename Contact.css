@@ -1,0 +1,75 @@
+.container {
+    width: auto;
+    margin: 5px 0px 0px 0px;
+    /* border: 1px solid black; */
+    border-bottom: 2px solid #646464;
+    border-top: 2px solid #a1a1a1;
+
+  }
+  
+  .container label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .container input,
+  .container select,
+  .container textarea {
+    width: 200%;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    border: 1px solid rgb(92, 92, 92);
+    color: black;
+    background-color: #d4d4d8;
+
+  }
+  .container input :hover {
+    border: 2px solid rgb(92, 92, 92);
+    background-color: #535353;
+  }
+  .container input,
+  .container select,
+  .container textarea,
+  .container label {
+    position: relative;
+    right: 200px;
+    top: 5px;
+    bottom: 20px;
+    bottom: 70px;
+   
+  }
+  
+  .container textarea {
+    height: 50px;
+  }
+  .container input[type="submit"] {
+    width: 150px;
+    height: 30%px;
+    background-color: #9b9b9b;
+    color: black;
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-family: sans-serif;
+    font-weight: 200; 
+    cursor: pointer;
+    text-align: center;
+  }
+  .container input[type="submit"]:hover{
+    background-color: #d6d6d6;
+    border:1px solid rgb(133, 133, 133);
+    border-radius: 10px;
+    color: #000000;
+  }
+  .contacthaad{
+    position: relative;
+    top: 6px;
+    color: rgb(255, 255, 255);
+  }
